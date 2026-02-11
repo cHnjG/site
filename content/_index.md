@@ -6,7 +6,8 @@ title: "助力每一块面包的诞生"
 /* 调整全局字体颜色和行间距 */
 body {
     color: #333;
-    line-height: 1.8;
+    font-size:11px;
+    line-height: 2.0;
     letter-spacing: 0.05em;
 }
 
