@@ -2,11 +2,42 @@
 title: "助力每一块面包的诞生"
 ---
 
-## 我们的口号是
+<style>
+/* 调整全局字体颜色和行间距 */
+body {
+    color: #333;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+}
+
+/* 隐藏链接下划线，改用淡雅的底边框 */
+a {
+    color: #4a6fa5;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+/* 修改三级标题（也就是 ### 后的文字，比如“系列名”） */
+h2 {
+    color: #555555;
+    font-size: 14px;
+    border-bottom: 1px solid #eee; /* 在标题下加一条淡淡的线，很有质感 */
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+</style>
+
+## 🍞 我们的口号是 🍞
 好吃的面包往往需要天然的酵种<br>
 <br>
 
-## 关于我
+## 🍔 关于我 🍔
 
 1 请叫我小反<br>
 2 elecold / 乱反射 / 脆鸡堡<br>
@@ -17,7 +48,7 @@ title: "助力每一块面包的诞生"
 7 对不起啊我没什么想说的了但是还想凑到第七条<br>
 <br>
 
-## 请挑选你想吃的面包
+## 🥖 请挑选你想吃的面包 🥖
 
 > 陈楚生&王栎鑫（暂时只有这个款式）：
 
