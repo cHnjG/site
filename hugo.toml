@@ -34,6 +34,4 @@ theme = "shibui"
 
 [params]
   favicon = "/favicon.png"
-
-[params]
   customCSS = ["css/custom.css"]
