@@ -1,6 +1,6 @@
 baseURL = "https://jiaozhong.xyz/"
 languageCode = 'zh-cn'
-title = '酵种'
+title = '助力每一块面包的诞生'
 theme = "shibui"
 
 [markup]
