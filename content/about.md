@@ -1,8 +1,8 @@
 ---
 title: "酵种"
-toc：false
-showToc:false
-lastmod:false
+toc: false
+showToc: false
+lastmod: false
 ---
 
 <style>
