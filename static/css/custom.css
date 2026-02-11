@@ -27,7 +27,7 @@ blockquote {
 /* 针对正文段落 */
 p {
     margin-top: 0 !important;       /* 确保上方没有多余间距 */
-    margin-bottom: 2em !important;  /* 这里的 2em 就是段落后的间距，可以根据喜好调整 */
+    margin-bottom: 3em !important;  /* 这里的 2em 就是段落后的间距，可以根据喜好调整 */
 }
 
 /* 针对引言块内的段落（通常引言内部不需要那么大的间距） */
