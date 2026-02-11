@@ -3,36 +3,13 @@ title: "助力每一块面包的诞生"
 ---
 
 <style>
-/* 调整全局字体颜色和行间距 */
-body {
-    color: #333;
-    font-size:11px;
-    line-height: 2.0;
-    letter-spacing: 0.05em;
-}
 
 /* 修改三级标题（也就是 ### 后的文字，比如“系列名”） */
 h2 {
-    color: #555555;
-    font-size: 14px;
-    border-bottom: 1px solid #eee; /* 在标题下加一条淡淡的线，很有质感 */
+    color: #5A4E49;
+    font-size: 12px;
     padding-bottom: 5px;
     margin-top: 40px;
-}
-
-    /* 针对首页或文章内的链接 */
-a {
-    text-decoration: none !important; /* 去掉原本死板的下划线 */
-    border-bottom: 0.5px solid #ddd;    /* 添加一个浅灰色的细线下划线 */
-    padding-bottom: 2px;              /* 让线和文字之间有一点呼吸感 */
-    transition: all 0.3s ease;        /* 增加平滑的过渡动画 */
-    color: #444;                      /* 链接文字颜色 */
-}
-
-/* 鼠标悬停时的效果 */
-a:hover {
-    color: #4a6fa5;                   /* 悬停时文字变蓝 */
-    border-bottom: 0.7px solid #4a6fa5; /* 悬停时下划线也跟着变色 */
 }
 
 </style>
