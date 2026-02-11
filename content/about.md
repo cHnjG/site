@@ -1,5 +1,5 @@
 ---
-title: "酵种"
+title: "About"
 toc: false
 showToc: false
 ---
@@ -39,16 +39,29 @@ a {
 a:hover {
     border-bottom: 1px solid #4a6fa5 !important;
 }
+
+/* 隐藏所有可能的日期、元数据、页脚时间 */
+.post-date, 
+.meta-date, 
+.date, 
+time, 
+.entry-meta, 
+.post-meta, 
+footer .date,
+#date {
+    display: none !important;
+}
+
 </style>
 
 
-> 「有兩種東西在我身上
-> 詭密的蛀蝕
-> 一顆壞牙和你
-> 我會迅速的死掉
-> 死了依然甜蜜
-> 你是那種細菌
-> 愛好潮濕」
+> 「有兩種東西在我身上<br>
+> 詭密的蛀蝕<br>
+> 一顆壞牙和你<br>
+> 我會迅速的死掉<br>
+> 死了依然甜蜜<br>
+> 你是那種細菌<br>
+> 愛好潮濕」<br>
 
 **多地分店**
 * **Weibo**: [酵种](https://weibo.com/u/7995899511)
