@@ -11,18 +11,6 @@ body {
     letter-spacing: 0.05em;
 }
 
-/* 隐藏链接下划线，改用淡雅的底边框 */
-a {
-    color: #4a6fa5;
-    text-decoration: none;
-    transition: all 0.3s;
-}
-
-a:hover {
-    color: #000;
-    border-bottom: 1px solid #000;
-}
-
 /* 修改三级标题（也就是 ### 后的文字，比如“系列名”） */
 h2 {
     color: #555555;
