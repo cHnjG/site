@@ -1,0 +1,37 @@
+body {
+    font-size: 10px !important;
+    line-height: 1.75 !important;
+    color: #000000 !important;
+    letter-spacing: 1.8;
+}
+h1, .post-title {
+    font-size: 12px !important;
+    color: #2c3e50 !important;
+}
+a {
+    text-decoration: none !important;
+    color: #4a6fa5;
+}
+
+/* 专属引言样式 */
+blockquote {
+    margin: 2em 0;
+    padding: 1.5em 2.5em;
+    border-left: 2px solid #ddd; /* 极简的灰色左边栏 */
+    background-color: #fdfdfd;   /* 极浅的背景色，区分正文 */
+    font-style: italic;          /* 斜体增加文学感 */
+    color: #555;                 /* 颜色稍微比正文浅一点点 */
+    position: relative;
+}
+
+/* 针对正文段落 */
+p {
+    margin-top: 0 !important;       /* 确保上方没有多余间距 */
+    margin-bottom: 2em !important;  /* 这里的 2em 就是段落后的间距，可以根据喜好调整 */
+}
+
+/* 针对引言块内的段落（通常引言内部不需要那么大的间距） */
+blockquote p {
+    margin-bottom: 0.8em !important;
+}
+
