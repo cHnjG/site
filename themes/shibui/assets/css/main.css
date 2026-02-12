@@ -636,22 +636,28 @@ h1, h2, h3, h4 {
   list-style: none; /* 去掉默认的小三角 */
 }
 
-/* 王栎鑫的笔记本专用样式 */
+/* 王栎鑫的笔记本专用样式 - 优化版 */
 .y鑫-notebook {
   margin: 2em auto;
-  padding: 2em 2.5em;
-  background-color: #fdfdfb;    /* 比背景稍微白一点，像一张单独的纸 */
-  background-image: linear-gradient(#e5e5e5 1px, transparent 1px); /* 模拟笔记本横线 */
-  background-size: 100% 2.2em; /* 横线间距，需配合 line-height */
+  /* 增加左边距 padding-left 到 4em，给红线留出足够空间 */
+  padding: 2.2em 2.5em 2.2em 4em; 
+  background-color: #fdfdfb;
+  
+  /* 模拟横线：增加 background-position 修正错位 */
+  background-image: linear-gradient(#e5e5e5 1px, transparent 1px);
+  background-size: 100% 2.2em; 
+  background-position: 0 2.15em; /* 关键：让横线往下偏移，刚好对准文字底部 */
   
   border: 1px solid #d1d1d1;
   border-radius: 2px;
-  box-shadow: 3px 3px 15px rgba(0,0,0,0.05); /* 纸张叠加的厚度感 */
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.05);
   
-  font-family: "Noto Serif SC", serif; /* 笔记本建议用带衬线的宋体，更有书写感 */
-  line-height: 2.2em;          /* 必须与 background-size 一致 */
-  color: #3e3a38;              /* 墨水笔的颜色 */
+  /* 字体：加入更多备选宋体，确保书写感 */
+  font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+  line-height: 2.2em; /* 必须与 background-size 保持严格一致 */
+  color: #3e3a38;
   position: relative;
+  word-break: break-all; /* 防止长字母打破排版 */
 }
 
 /* 模拟笔记本左侧的红色装订线 */
@@ -659,10 +665,10 @@ h1, h2, h3, h4 {
   content: "";
   position: absolute;
   top: 0;
-  left: 35px;
+  left: 45px; /* 红线位置稍微往右挪一点点 */
   width: 1px;
   height: 100%;
-  border-left: 1px solid rgba(140, 67, 50, 0.3); 
+  border-left: 2px solid rgba(140, 67, 50, 0.2); /* 稍微加粗一点点，更有质感 */
 }
 
 /* Custom defined styles */
