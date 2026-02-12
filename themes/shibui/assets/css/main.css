@@ -636,6 +636,14 @@ h1, h2, h3, h4 {
   list-style: none; /* 去掉默认的小三角 */
 }
 
+/* 强制统一笔记本内部的所有段落：首行缩进 2 字 */
+.y鑫-notebook p {
+  margin: 0 !important;
+  padding: 0 !important;
+  /* 关键：text-indent 设为 2em 刚好是两个字的宽度 */
+  text-indent: 2em !important; 
+  text-align: justify; /* 顺便让文字两端对齐，看起来更像印刷/认真书写的日记 */
+}
 /* 王栎鑫的笔记本专用样式 - 深度兼容版 */
 .y鑫-notebook {
   --notebook-line-height: 2rem; /* 使用 rem 锁定高度，不受父级 em 干扰 */
