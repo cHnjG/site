@@ -147,11 +147,12 @@ a {
   color: inherit; 
   
   /* --- 调整核心开始 --- */
-  border-bottom: 1px dotted rgba(140, 67, 50,0.8); 
+  border-bottom: 1px dotted rgba(140, 67, 50, 0.8); 
   padding-bottom: 3px;  /* 这里的数值越小，线离文字越近。可以尝试 -1px 或 -2px */
   line-height: 0.9;     /* 稍微压缩行高，也能让线贴得更近 */
   text-underline-offset: 2px; /* 专门微调原生下划线位置 */
   text-decoration-skip-ink: auto; /* 这种效果在现代浏览器里非常优雅 */
+  transition: all 0.3s ease-in-out; /* 让所有改变都变丝滑 */
 }
 
 a:hover {
@@ -208,6 +209,14 @@ h4::before {
 
 h5::before {
   content: counter(h2) "." counter(h3) "." counter(h4) "." counter(h5) ". ";
+}
+
+hr {
+    border: none;
+    border-top: 1px dashed rgba(140, 67, 50, 0.3); /* 配合你的砖红色 */
+    height: 0;
+    margin: 2em auto;
+    width: 50%; /* 让线只占一半宽度，更有文学留白感 */
 }
 
 time {
@@ -469,14 +478,13 @@ em {
   font-style: italic;
 }
 
-/* Blockquote styles */
 blockquote {
   background: rgba(255, 255, 255, 0.2); /* 半透明的白色，在米色背景上很干净 */
   border-left: none;
   border-radius: 8px;
   margin: 1.5em 0;
-  padding: 1.2em 1.5em;
-  font-style: italic
+  padding: 1.5em;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.02);
 }
 
 blockquote > :first-child {
@@ -599,6 +607,32 @@ h1::before, h2::before, h3::before, h4::before {
 h1, h2, h3, h4 {
   padding-left: 0 !important;
   margin-left: 0 !important;
+}
+
+.quiet-rating {
+  display: inline-block;
+  font-size: 0.75em;
+  font-weight: 500;            /* 关键：从 300 调到 500，文字更有存在感 */
+  letter-spacing: 0.12em;      /* 稍微收紧一点间距，让它看起来更扎实 */
+  color: #8C4332;              /* 你的砖红色 */
+  opacity: 0.9;               /* 提高不透明度，让颜色更饱满 */
+  
+  /* 边框微调 */
+  border: 1px solid rgba(140, 67, 50, 0.4); /* 边框从 1px 增加到 1.5px */
+  padding: 1px 8px;
+  border-radius: 3px;          /* 稍微带一点点圆角，呼应 base.css 的精致感 */
+  
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+.warning-collapse summary {
+  cursor: pointer;
+  font-size: 0.8em;
+  color: #5A4E49;
+  opacity: 0.8;
+  text-decoration: underline;
+  list-style: none; /* 去掉默认的小三角 */
 }
 
 /* Custom defined styles */
