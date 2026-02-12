@@ -4,10 +4,30 @@
   dir="{{ or site.Language.LanguageDirection `ltr` }}"
 >
   <head>
+   <style>
+      /* 1. 先定背景色，同时让内容暂时不可见 */
+      html, body { 
+        background-color: #e9e5e2 !important; 
+        color: #5A4E49;
+        opacity: 0; /* 关键：先让页面透明 */
+      }
+      /* 2. 当 CSS 加载完成后，页面会获得一个 class，我们让它显现 */
+      .wf-active body, .fonts-loaded body {
+        opacity: 1;
+        transition: opacity 0.2s ease-in; /* 加上微弱的渐变，更有呼吸感 */
+      }
+      /* 3. 兜底方案：如果 CSS 没加载成功，0.5秒后强制显示，防止页面永久空白 */
+      @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+      body { animation: fade-in 0s forwards; animation-delay: 0.5s; }
+    </style>
+
     {{ partial "head.html" . }}
-    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1">
+
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=3">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=3">
+    <link rel="apple-touch-icon" href="/favicon.ico?v=3">
   </head>
+  
   <body>
     <a href="#main-content" class="skip-link">Skip to content</a>
     <header>{{ partial "header.html" . }}</header>

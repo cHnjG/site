@@ -213,10 +213,10 @@ h5::before {
 
 hr {
     border: none;
-    border-top: 1px dashed rgba(140, 67, 50, 0.3); /* 配合你的砖红色 */
+    border-top: 1px dashed rgba(140, 67, 50, 0.5); /* 配合你的砖红色 */
     height: 0;
     margin: 2em auto;
-    width: 50%; /* 让线只占一半宽度，更有文学留白感 */
+    width: 60%; /* 让线只占一半宽度，更有文学留白感 */
 }
 
 time {
@@ -633,6 +633,35 @@ h1, h2, h3, h4 {
   opacity: 0.8;
   text-decoration: underline;
   list-style: none; /* 去掉默认的小三角 */
+}
+
+/* 王栎鑫的笔记本专用样式 */
+.y鑫-notebook {
+  margin: 2em auto;
+  padding: 2em 2.5em;
+  background-color: #fdfdfb;    /* 比背景稍微白一点，像一张单独的纸 */
+  background-image: linear-gradient(#e5e5e5 1px, transparent 1px); /* 模拟笔记本横线 */
+  background-size: 100% 2.2em; /* 横线间距，需配合 line-height */
+  
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.05); /* 纸张叠加的厚度感 */
+  
+  font-family: "Noto Serif SC", serif; /* 笔记本建议用带衬线的宋体，更有书写感 */
+  line-height: 2.2em;          /* 必须与 background-size 一致 */
+  color: #3e3a38;              /* 墨水笔的颜色 */
+  position: relative;
+}
+
+/* 模拟笔记本左侧的红色装订线 */
+.y鑫-notebook::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 35px;
+  width: 1px;
+  height: 100%;
+  border-left: 1px solid rgba(140, 67, 50, 0.3); 
 }
 
 /* Custom defined styles */
