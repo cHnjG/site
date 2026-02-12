@@ -638,7 +638,7 @@ h1, h2, h3, h4 {
 
 /* 王栎鑫的笔记本专用样式 - 深度兼容版 */
 .y鑫-notebook {
-  --notebook-line-height: 2.25rem; /* 使用 rem 锁定高度，不受父级 em 干扰 */
+  --notebook-line-height: 2rem; /* 使用 rem 锁定高度，不受父级 em 干扰 */
   
   margin: var(--spacing-lg) auto;
   padding: 0 1.5rem 0 4rem; /* 上下 padding 设为 0，靠 line-height 撑起 */
@@ -650,13 +650,13 @@ h1, h2, h3, h4 {
   background-position: 0 calc(var(--notebook-line-height) - 1px); /* 让线刚好在文字脚下 */
   
   border: 1px solid var(--color-border);
-  border-radius: var(--inline-border-radius);
+  border-radius: none;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.07);
   
   /* 强制覆盖主题字体 */
   font-family: "Noto Serif SC", "STSong", "SimSun", serif !important;
   line-height: var(--notebook-line-height) !important; 
-  font-size: 1.05rem; /* 稍微大一点点，更有手写感 */
+  font-size: 0.9rem; /* 稍微大一点点，更有手写感 */
   color: var(--color-text-primary);
   
   position: relative;
