@@ -325,14 +325,15 @@ h5 > code {
   max-width: none; /* Allow full width for current page */
 }
 
+/* 优化后的路径导航文字样式 */
 .path-nav li a {
   text-decoration: none;
   border-bottom: none;
-  padding: 0 0.25em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  padding: 0.2em 0.25em; /* 关键：增加了 0.2em 的上下内边距，给汉字留出呼吸空间 */
   color: var(--color-text-muted);
+  overflow: visible;      /* 允许汉字笔画稍微溢出边界 */
+  display: inline-block;  /* 让 padding 生效 */
+  line-height: 1.4;       /* 稍微撑开行高 */
 }
 
 .path-nav li.current a {
