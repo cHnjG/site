@@ -497,28 +497,50 @@ blockquote > :last-child {
   margin-bottom: 0;
 }
 
-/* Table of Contents */
+/* 优化后的 TOC - 文艺索引风格 */
 .toc {
-  margin: var(--spacing-base) 0;
-  padding: var(--spacing-sm);
-  border: 1px solid var(--color-border);
-  background: var(--color-bg-secondary);
-  border-radius: var(--pre-border-radius);
-  box-shadow: 0 1px 2px 0 var(--color-border);
+  margin: var(--spacing-lg) 0;
+  padding: var(--spacing-md) var(--spacing-lg);
+  /* 去掉背景，改用简洁的边框线 */
+  background: transparent; 
+  border: none;
+  border-left: 2px solid var(--color-border); /* 只有左侧有一条线 */
+  border-radius: 0;
+  box-shadow: none;
 }
 
 .toc .toc-content a {
   text-decoration: none;
-  color: var(--color-text-primary);
+  color: var(--color-text-muted); /* 默认用淡色 */
   font-size: var(--font-size-small);
+  transition: color 0.3s;
+}
+
+.toc .toc-content a:hover {
+  color: var(--color-text-primary); /* 悬停时变深 */
+  text-decoration: underline dotted; /* 配合一点虚线装饰 */
+}
+
+/* 让列表稍微紧凑一点，更有书目感 */
+.toc .toc-content ol {
+  padding-left: 1.2em;
+  line-height: 1.8;
 }
 
 .toc .toc-content ol li {
-  list-style-type: disc !important;
+  list-style-type: decimal-leading-zero !important; /* 改成 01, 02 这种数字，很有质感 */
+  font-family: var(--font-family-mono); /* 这种数字用等宽字体很好看 */
+  color: var(--color-text-muted);
+  font-size: 0.85em;
 }
 
 .time {
   margin: var(--spacing-md) 0;
+}
+
+/* 彻底隐藏那个显示错误的时间戳 */
+time, .time {
+  display: none !important;
 }
 
 @media (max-width: 600px) {
