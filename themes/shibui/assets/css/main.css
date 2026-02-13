@@ -538,8 +538,8 @@ blockquote > :last-child {
   margin: var(--spacing-md) 0;
 }
 
-/* 彻底隐藏那个显示错误的时间戳 */
-time, .time {
+/* 只有当日期属性以 0001 开头时才隐藏 */
+time[datetime^="0001"] {
   display: none !important;
 }
 
