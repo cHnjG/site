@@ -48,7 +48,17 @@
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
+<style>
+  /* 专属“极简笔记本”修复：如果没有封面，去掉左侧留白 */
+  .aplayer.aplayer-withlrc .aplayer-pic { display: none; }
+  .aplayer.aplayer-withlrc .aplayer-info { margin-left: 0; padding: 10px; }
+  .aplayer { 
+    background: transparent !important; 
+    box-shadow: none !important; 
+    border: 1px solid var(--color-border); /* 与你网站边框统一 */
+  }
+</style>
 
 {{ partialCached "head/favicon.html" . }} 
 {{ partialCached "head/css.html" . }}
