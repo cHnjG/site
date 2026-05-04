@@ -44,7 +44,7 @@ h2 {
 
 **[今夜，我们不再关心人类](/posts/今夜我们不再关心人类/)** <br>
 <div style="font-size: 0.92em; color: #8C4332; opacity: 0.8; line-height: 1.6; margin: 2em 0; padding-left: 1em; border-left: none; font-weight: 600;">
-1.<a href="/stories/小海豚/c1/">7月11日 大雨</a> 2.<a href="/stories/小海豚/c2/">7月12日 晴</a> 3.<a href="/stories/小海豚/c3/">7月25日 晴</a> 4.<a href="/stories/小海豚/c4/">8月22日 多云转晴</a>
+1.<a href="/stories/小海豚/c1/">7月11日 大雨</a> 2.<a href="/stories/小海豚/c2/">7月12日 晴</a> 3.<a href="/stories/小海豚/c3/">7月25日 晴</a> 4.<a href="/stories/小海豚/c4/">8月22日 多云转晴</a> 5.<a href="/stories/小海豚/c5/">9月20日 台风</a>
 </div>
 
 > &emsp;&emsp;当陈楚生和王栎鑫成为海豚驯养员。时代与地点都模糊处理了，参考了一些长三角地区的情况。极度缓慢更新中，由于战线拉得太长，所以每一章节的书写都产生了微妙的变化，可以感受到我对文字的使用和控制力也是一种很玄的东西，当我需要转换心情时，就会去海洋馆见一见他们。本质上是一个不会给出任何解决方案的故事，他们会走到哪里，没有人知道。开始于2025.07.23。
