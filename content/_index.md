@@ -23,20 +23,6 @@ h2 {
         box-shadow: 0 4px 12px rgba(140, 67, 50, 0.05);
     }
 
-    /* 标题链接的交互 */
-    summary strong a {
-        transition: color 0.3s ease;
-    }
-
-    summary strong a:hover {
-    color: #5D2D22 !important; 
-    /* 1. 首先确保干掉浏览器自带的所有装饰线，防止出现双线 */
-    text-decoration: none !important; 
-    /* 2. 用 border-bottom 自定义一根稳固的单线下划线 */
-    border-bottom: 1px solid #5D2D22 !important; 
-    padding-bottom: 1px; /* 增加一点点间距，防止线贴在文字底部太近 */
-}
-
     .card-chapters a {
         transition: opacity 0.2s ease;
     }
