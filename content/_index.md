@@ -4,14 +4,44 @@ title: "助力每一块面包的诞生"
 
 <style>
 
-/* 修改三级标题（也就是 ### 后的文字，比如“系列名”） */
 h2 {
     color: #5A4E49;
     font-size: 12px;
     padding-bottom: 5px;
     margin-top: 40px;
 }
+    /* 定义卡片整体的过渡效果 */
+    details {
+        transition: all 0.3s ease; /* 让所有变化都在 0.3 秒内缓缓发生 */
+        opacity: 0.85; /* 默认稍微浅一点点 */
+    }
 
+    /* 鼠标移到整个卡片上时，卡片变深、边框变明显 */
+    details:hover {
+        opacity: 1;
+        border-color: rgba(140, 67, 50, 0.4) !important;
+        box-shadow: 0 4px 12px rgba(140, 67, 50, 0.05);
+    }
+
+    /* 标题链接的交互 */
+    summary strong a {
+        transition: color 0.3s ease;
+    }
+
+    summary strong a:hover {
+        color: #5D2D22 !important; /* 鼠标移上去时暗红色变深 */
+        text-decoration: underline !important;
+    }
+
+    /* 章节链接的交互 */
+    .card-chapters a {
+        transition: opacity 0.2s ease;
+    }
+    
+    .card-chapters a:hover {
+        opacity: 1;
+        text-decoration: underline;
+    }
 </style>
 
 ## 🍞 我们的口号是 🍞
@@ -38,7 +68,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">苹果</strong>
+            <strong style="color: #8C4332; font-size: 1em;">苹果</strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #完结 #背德</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -56,7 +86,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">[今夜，我们不再关心人类](/posts/今夜我们不再关心人类/)</strong>
+            <strong style="font-size: 1em;"><a href="/posts/今夜我们不再关心人类/" style="color: #8C4332; text-decoration: none;">今夜，我们不再关心人类</a></strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#伪现背</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -74,7 +104,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">反进化</strong>
+            <strong style="color: #8C4332; font-size: 1em;">反进化</strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #POV #背德</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -90,14 +120,14 @@ h2 {
     </details>
 
 <div style="margin: 4em 0 2em; text-align: center;">
-    <span style="font-size: 0.85em; color: #8C4332; opacity: 0.6; letter-spacing: 0.2em;">✦ One-shots / 爱之颤 ✦</span>
+    <span style="font-size: 0.8em; color: #8C4332; opacity: 0.6; letter-spacing: 0.2em;">✦ One-shots / 爱之颤 ✦</span>
     <hr style="width: 30px; border: none; border-top: 1px solid #8C4332; margin: 10px auto; opacity: 0.3;">
 </div>
 
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">[水门](/posts/水门)</strong>
+            <strong style="font-size: 1em;"><a href="/posts/水门/" style="color: #8C4332; text-decoration: none;">水门</a></strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -112,7 +142,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">[落水狗](/posts/落水狗/)</strong>
+            <strong style="font-size: 1em;"><a href="/posts/落水狗/" style="color: #8C4332; text-decoration: none;">落水狗</a></strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -128,7 +158,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">[一些次要的时刻](/posts/一些次要的时刻/)</strong>
+            <strong style="font-size: 1em;"><a href="/posts/一些次要的时刻/" style="color: #8C4332; text-decoration: none;">一些次要的时刻</a></strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #POV</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -147,7 +177,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">[烧船](/posts/烧船)</strong>
+            <strong style="font-size: 1em;"><a href="/posts/烧船/" style="color: #8C4332; text-decoration: none;">烧船</a></strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#架空 #POV #背德</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
@@ -163,7 +193,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="color: #8C4332; font-size: 1.1em;">[劈你的雷正在路上](/posts/劈你的雷正在路上)</strong>
+            <strong style="font-size: 1em;"><a href="/posts/劈你的雷正在路上/" style="color: #8C4332; text-decoration: none;">劈你的雷正在路上</a></strong>
             <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #小圈</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
