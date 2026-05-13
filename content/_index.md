@@ -29,11 +29,14 @@ h2 {
     }
 
     summary strong a:hover {
-        color: #5D2D22 !important; /* 鼠标移上去时暗红色变深 */
-        text-decoration: underline !important;
-    }
+    color: #5D2D22 !important; 
+    /* 1. 首先确保干掉浏览器自带的所有装饰线，防止出现双线 */
+    text-decoration: none !important; 
+    /* 2. 用 border-bottom 自定义一根稳固的单线下划线 */
+    border-bottom: 1px solid #5D2D22 !important; 
+    padding-bottom: 1px; /* 增加一点点间距，防止线贴在文字底部太近 */
+}
 
-    /* 章节链接的交互 */
     .card-chapters a {
         transition: opacity 0.2s ease;
     }
