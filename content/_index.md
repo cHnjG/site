@@ -35,12 +35,23 @@ h2 {
 陈楚生&王栎鑫（暂时只有这个款式）：
 </div>
 
-**苹果** <br>
-<div style="font-size: 0.92em; color: #8C4332; opacity: 0.8; line-height: 1.6; margin: 2em 0; padding-left: 1em; border-left: none; font-weight: 600;">
-1.<a href="/posts/抛锚/">抛锚</a> 2.<a href="/posts/跳水/">跳水</a> 3.<a href="/posts/冬泳/">冬泳</a> 4.<a href="/posts/平原/">平原</a> 5.<a href="/posts/愚人/">愚人</a> 6.<a href="/posts/海洋/">海洋</a> 7.<a href="/posts/水手/">水手</a> 8.<a href="/posts/夜奔/">夜奔</a>
-</div>
-
-> &emsp;&emsp;aka我的入坑实录，现背下的一些短篇，写写个人对二位感情变化的理解。每一篇都可以单独食用，没有剧情的连接，仅仅是时间线上有延续。故事发展的时间线顺序是，水手→海洋→抛锚→跳水→冬泳→平原→愚人→夜奔，实际的写作顺序是，愚人→抛锚→跳水→冬泳→平原→海洋→水手→夜奔。这个系列开始于2025.05.23，完成于2025.07.15，除去字符数共计56,365字。现在回看觉得很粗糙，有时间想修一下。
+<details style="margin-bottom: 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 4px;">
+    <!-- 1. 首页显示的部分 -->
+    <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            <strong style="color: #8C4332; font-size: 1.1em;">苹果</strong>
+            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #完结</span>
+        </div>
+        <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
+    </summary>
+    <div style="padding: 0 1em 1em 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
+        <div style="font-size: 0.92em; color: #8C4332; line-height: 2; font-weight: 600; margin: 1em 0;">
+            1.<a href="/posts/抛锚/">抛锚</a> 2.<a href="/posts/跳水/">跳水</a> 3.<a href="/posts/冬泳/">冬泳</a> 4.<a href="/posts/平原/">平原</a> 5.<a href="/posts/愚人/">愚人</a> 6.<a href="/posts/海洋/">海洋</a> 7.<a href="/posts/水手/">水手</a> 8.<a href="/posts/夜奔/">夜奔</a>
+        </div>
+        <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
+            &emsp;&emsp;aka我的入坑实录，现背下的一些短篇，写写个人对二位感情变化的理解。每一篇都可以单独食用，没有剧情的连接，仅仅是时间线上有延续。故事发展的时间线顺序是，水手→海洋→抛锚→跳水→冬泳→平原→愚人→夜奔，实际的写作顺序是，愚人→抛锚→跳水→冬泳→平原→海洋→水手→夜奔。这个系列开始于2025.05.23，完成于2025.07.15，除去字符数共计56,365字。现在回看觉得很粗糙，有时间想修一下。
+        </blockquote>
+    </div>
 
 **[今夜，我们不再关心人类](/posts/今夜我们不再关心人类/)** <br>
 <div style="font-size: 0.92em; color: #8C4332; opacity: 0.8; line-height: 1.6; margin: 2em 0; padding-left: 1em; border-left: none; font-weight: 600;">
