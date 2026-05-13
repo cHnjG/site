@@ -35,8 +35,7 @@ h2 {
 陈楚生&王栎鑫（暂时只有这个款式）：
 </div>
 
-<details style="margin-bottom: 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 4px;">
-    <!-- 1. 首页显示的部分 -->
+<details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="color: #8C4332; font-size: 1.1em;">苹果</strong>
@@ -52,6 +51,7 @@ h2 {
             &emsp;&emsp;aka我的入坑实录，现背下的一些短篇，写写个人对二位感情变化的理解。每一篇都可以单独食用，没有剧情的连接，仅仅是时间线上有延续。故事发展的时间线顺序是，水手→海洋→抛锚→跳水→冬泳→平原→愚人→夜奔，实际的写作顺序是，愚人→抛锚→跳水→冬泳→平原→海洋→水手→夜奔。这个系列开始于2025.05.23，完成于2025.07.15，除去字符数共计56,365字。现在回看觉得很粗糙，有时间想修一下。
         </blockquote>
     </div>
+    </details>
 
 **[今夜，我们不再关心人类](/posts/今夜我们不再关心人类/)** <br>
 <div style="font-size: 0.92em; color: #8C4332; opacity: 0.8; line-height: 1.6; margin: 2em 0; padding-left: 1em; border-left: none; font-weight: 600;">
