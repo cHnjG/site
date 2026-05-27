@@ -14,16 +14,26 @@
     </nav>
   {{ end }}
 
-  <!-- Content -->
-  {{ .Content }}
-  <div class="time">{{ partial "date.html" .Date}}</div>
+ <style>
+    /* 🍏 强行把被挤压的头像撑回正常比例 */
+    .twikoo .tk-avatar img {
+      width: 44px !important;
+      height: 44px !important;
+      object-fit: cover !important;
+      border-radius: 4px !important; /* 4px 是微圆角，如果想要正圆形可以改成 50% */
+    }
+    /* 🍏 确保头像的外部容器不会被挤扁 */
+    .twikoo .tk-avatar {
+      width: 44px !important;
+      height: 44px !important;
+      min-width: 44px !important;
+    }
+  </style>
 
-  <!-- 🛠️ Twikoo 匿名信箱区开始 -->
   <div style="margin: 4em auto 2em; max-width: 650px; padding: 0 1em;">
       <hr style="border: none; border-top: 1px dashed rgba(140, 67, 50, 0.2); margin-bottom: 2em;">
       <div id="tcomment"></div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.all.min.js"></script>
+  </div> <script src="https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.all.min.js"></script>
   <script>
     twikoo.init({
       envId: 'https://comment.jiaozhong.xyz',
@@ -31,8 +41,7 @@
       lang: 'zh-CN'
     });
   </script>
-  <!-- 🛠️ Twikoo 结束 -->
-
+  
   <!-- Comments block -->
   {{ if and .Content (default true (default .Site.Params.comments
     .Params.comments))
