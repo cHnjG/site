@@ -15,18 +15,19 @@
   {{ end }}
 
  <style>
-    /* 🍏 强行把被挤压的头像撑回正常比例 */
-    .twikoo .tk-avatar img {
+    /* 🛠️ 终极必杀：管它是容器还是图片，全部强制锁死 44px */
+    .twikoo .tk-avatar, 
+    .twikoo .tk-avatar img, 
+    .twikoo img.tk-avatar {
       width: 44px !important;
       height: 44px !important;
-      object-fit: cover !important;
-      border-radius: 4px !important; /* 4px 是微圆角，如果想要正圆形可以改成 50% */
-    }
-    /* 🍏 确保头像的外部容器不会被挤扁 */
-    .twikoo .tk-avatar {
-      width: 44px !important;
-      height: 44px !important;
+      max-width: 44px !important;
       min-width: 44px !important;
+      max-height: 44px !important;
+      min-height: 44px !important;
+      object-fit: cover !important;
+      border-radius: 4px !important;
+      display: inline-block !important;
     }
   </style>
 
@@ -41,7 +42,7 @@
       lang: 'zh-CN'
     });
   </script>
-  
+
   <!-- Comments block -->
   {{ if and .Content (default true (default .Site.Params.comments
     .Params.comments))
