@@ -14,8 +14,10 @@
     </nav>
   {{ end }}
 
- <style>
-    /* 🛠️ 终极必杀：管它是容器还是图片，全部强制锁死 44px */
+ {{ .Content }}
+  <div class="time">{{ partial "date.html" .Date}}</div>
+
+  <style>
     .twikoo .tk-avatar, 
     .twikoo .tk-avatar img, 
     .twikoo img.tk-avatar {
@@ -34,7 +36,8 @@
   <div style="margin: 4em auto 2em; max-width: 650px; padding: 0 1em;">
       <hr style="border: none; border-top: 1px dashed rgba(140, 67, 50, 0.2); margin-bottom: 2em;">
       <div id="tcomment"></div>
-  </div> <script src="https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.all.min.js"></script>
+  </div> 
+  </footer> <script src="https://cdn.jsdelivr.net/npm/twikoo@1.7.9/dist/twikoo.all.min.js"></script>
   <script>
     twikoo.init({
       envId: 'https://comment.jiaozhong.xyz',
