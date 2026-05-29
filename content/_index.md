@@ -82,10 +82,11 @@ h2 {
     </summary>
 <div style="padding: 0 1em 1em 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
         <div style="font-size: 0.92em; color: #8C4332; line-height: 2; font-weight: 600; margin: 1em 0;">
-            1.<a href="/stories/小海豚/c1/">7月11日 大雨</a> 2.<a href="/stories/小海豚/c2/">7月12日 晴</a> 3.<a href="/stories/小海豚/c3/">7月25日 晴</a> 4.<a href="/stories/小海豚/c4/">8月22日 多云转晴</a> 5.<a href="/stories/小海豚/c5/">9月20日 台风</a> 6.<a href="/stories/小海豚/c6/">10月2日 晴</a> 7.<a href="/stories/小海豚/c7/">12月24日 晴</a>
+            1.<a href="/stories/小海豚/c1/">7月11日 大雨</a> 2.<a href="/stories/小海豚/c2/">7月12日 晴</a> 3.<a href="/stories/小海豚/c3/">7月25日 晴</a> 4.<a href="/stories/小海豚/c4/">8月22日 多云转晴</a> 5.<a href="/stories/小海豚/c5/">9月20日 台风</a> 6.<a href="/stories/小海豚/c6/">10月2日 晴</a> 7.<a href="/stories/小海豚/c7/">12月24日 晴</a> 8.<a href="/stories/小海豚/c8/">2月1日 晴</a>
+        </div>
         </div>
         <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
-            &emsp;&emsp;当陈楚生和王栎鑫成为海豚驯养员。时代与地点都模糊处理了，参考了一些长三角地区的情况。极度缓慢更新中，由于战线拉得太长，所以每一章节的书写都产生了微妙的变化，但请不要怀疑都是我写的。。。本质上是一个“没有明天”的故事，写c6的时候意外发现一首歌很适合小海豚，请听刺猬的《最后，我们会一起去海边》。开始于2025.07.23。
+            &emsp;&emsp;当陈楚生和王栎鑫成为海豚驯养员。时代与地点都模糊处理了，参考了一些长三角地区的情况。极度缓慢更新中，由于战线拉得太长，所以每一章节的书写都产生了微妙的变化，但请不要怀疑都是我写的。。。本质上是一个“没有明天”的故事，写c6的时候意外发现一首歌很适合小海豚，请听刺猬的《最后，我们会一起去海边》。开始于2025.07.23。结束于2026.05.29。
         </blockquote>
     </div>
     </details>
