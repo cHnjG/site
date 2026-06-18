@@ -58,7 +58,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;">苹果</strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #完结 #背德</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -76,7 +75,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;"><a href="/posts/今夜我们不再关心人类/">今夜，我们不再关心人类</a></strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#伪现背</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -95,7 +93,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;">反进化</strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #POV #背德</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -118,7 +115,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;"><a href="/posts/水门/">水门</a></strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -133,7 +129,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;"><a href="/posts/落水狗/">落水狗</a></strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -149,7 +144,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;"><a href="/posts/一些次要的时刻/">一些次要的时刻</a></strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #POV</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -168,7 +162,6 @@ h2 {
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
             <strong style="font-size: 1em;"><a href="/posts/烧船/">烧船</a></strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#架空 #POV #背德</span>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
@@ -180,18 +173,20 @@ h2 {
     </div>
 </details>
 
+
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="font-size: 1em;"><a href="/posts/劈你的雷正在路上/">劈你的雷正在路上</a></strong>
-            <span style="margin-left: 10px; font-size: 0.8em; color: #999;">#现背 #小圈</span>
+            <strong style="font-size: 1em;"><a href="/posts/一些次要的时刻/">在水之湄</a></strong>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
-<div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
+<div style="padding: 0 1em 1em 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
+        <div style="font-size: 0.92em; color: #8C4332; line-height: 2; font-weight: 600; margin: 1em 0;">
+         1.<a href="/posts/滩涂/">滩涂</a> 2.<a href="/posts/劈你的雷正在路上/">劈你的雷正在路上</a>
+        </div>
         <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
-        &emsp;&emsp;莫名其妙的东西，张远视角下的狗与狗主人。<br>
-        &emsp;&emsp;寓言故事一则。其实我的醋是，农夫与蛇，吕洞宾与狗，郝建与老太太（嗯）。一直觉得179是个非常神奇的三角，张远有他独特的参与方式，可能就是鸟吧，鸟与狗与人。鸟站在电线杆上看着这一切，从来没办法身处其中，而又不停地被卷入某一种轻巧的悲伤里去，“他在这段关系中根本找不到属于自己的位置”。
+          &emsp;&emsp;现背故事，独立短篇，但可以看成是同一个故事线。有一点点小圈，一点点背德，狗与主人，偶尔还有张远（。）<br>
         </blockquote>
     </div>
 </details>
