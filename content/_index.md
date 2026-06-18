@@ -177,7 +177,7 @@ h2 {
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
     <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
         <div>
-            <strong style="font-size: 1em;"><a href="/posts/一些次要的时刻/">在水之湄</a></strong>
+            <strong style="font-size: 1em;">在水之湄</strong>
         </div>
         <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
     </summary>
