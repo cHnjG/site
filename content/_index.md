@@ -190,3 +190,19 @@ h2 {
         </blockquote>
     </div>
 </details>
+
+<details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
+    <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            <strong style="font-size: 1em;"><a href="/posts/十万个为什么/">十万个为什么</a></strong>
+        </div>
+        <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
+    </summary>
+<div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
+        <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
+        &emsp;&emsp;0725生日联产，请喝！一杯致幻的餐后酒🍷<br>
+        &emsp;&emsp;起源是想写九号房间加一点点宇编风格的东西，但已经很难把它称作九号房间。。于是变成一篇各方面都失败的四不像，唯一能够确定的是现背。四不像指，末日/九号房间/搞笑/科幻（吧），总而言之是完全的没有涉及，完全的背叛，并且完全的没有逻辑。<br>
+        &emsp;&emsp;当25号来临的时候，抬起头吧，你会看到宇宙送给你的礼物。
+        </blockquote>
+    </div>
+</details>
