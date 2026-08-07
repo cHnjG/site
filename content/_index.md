@@ -206,3 +206,18 @@ h2 {
         </blockquote>
     </div>
 </details>
+
+<details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
+    <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            <strong style="font-size: 1em;"><a href="/posts/绿洲/">绿洲</strong>
+        </div>
+        <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
+    </summary>
+<div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
+        <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
+        &emsp;&emsp;站街，所以你不喜欢的这里都有）<br>
+        &emsp;&emsp;选取Bob Dylan的《Love Sick》作为本文特供bgm。<br>
+        </blockquote>
+    </div>
+</details>
