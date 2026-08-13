@@ -216,8 +216,7 @@ h2 {
     </summary>
 <div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
         <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
-        &emsp;&emsp;站街，所以你不喜欢的这里都有，包括但不限于不洁，路人等。<br>
-        &emsp;&emsp;有很多原创人物及相关剧情，时间线/叙述者/人称都是跳跃的。<br>
+        &emsp;&emsp;站街，所以你不喜欢的这里都有，包括但不限于不洁，路人等。有很多原创人物及相关剧情，时间线/叙述者/人称都是跳跃的。<br>
         &emsp;&emsp;选取Bob Dylan的《Love Sick》作为本文特供bgm。<br>
         </blockquote>
     </div>
