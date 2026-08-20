@@ -81,8 +81,7 @@ h2 {
 <div style="padding: 0 1em 1em 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
         <div style="font-size: 0.92em; color: #8C4332; line-height: 2; font-weight: 600; margin: 1em 0;">
             1.<a href="/stories/小海豚/c1/">7月11日 大雨</a> 2.<a href="/stories/小海豚/c2/">7月12日 晴</a> 3.<a href="/stories/小海豚/c3/">7月25日 晴</a> 4.<a href="/stories/小海豚/c4/">8月22日 多云转晴</a> 5.<a href="/stories/小海豚/c5/">9月20日 台风</a> 6.<a href="/stories/小海豚/c6/">10月2日 晴</a> 7.<a href="/stories/小海豚/c7/">12月24日 晴</a> 8.<a href="/stories/小海豚/c8/">2月1日 晴</a>
-        </div>
-        </div>
+         </div>
         <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
             &emsp;&emsp;当陈楚生和王栎鑫成为海豚驯养员。时代与地点都模糊处理了，参考了一些长三角地区的情况。极度缓慢更新中，由于战线拉得太长，所以每一章节的书写都产生了微妙的变化，但请不要怀疑都是我写的。。。本质上是一个“没有明天”的故事，写c6的时候意外发现一首歌很适合小海豚，请听刺猬的《最后，我们会一起去海边》。开始于2025.07.23。结束于2026.05.29。
         </blockquote>
@@ -102,6 +101,21 @@ h2 {
         </div>
         <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
             &emsp;&emsp;另一种可能性中楚鑫的这十几年，以王栎鑫第一人称为主，同时涉及多人的视角切换，比如陈楚生，比如刘云。这个世界没有再就业合体，其余设定与时间线基本遵循现实状况，不那么典型的破镜重圆故事（最好还是别对我的he抱有期待（x）所以，道德全瑕，请不要审判我笔下他们的任何行为，三观是没有的，人物是ooc的，爱是要做的，妻子是在场的。文中涉及直接的性描写，心理疾病与创伤，出轨等等行为，如果能接受再阅读。最后建议您听陈楚生和王栎鑫各自翻唱过的达尔文，是该系列标题的灵感来源。开始于2025.08.15。
+        </blockquote>
+    </div>
+    </details>
+
+<details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
+    <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            <strong style="font-size: 1em;"><a href="/posts/绿洲/">绿洲</a></strong>
+        </div>
+        <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
+    </summary>
+    <div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
+        <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
+        &emsp;&emsp;站街，所以你不喜欢的这里都有，包括但不限于不洁，路人等。有很多原创人物及相关剧情，时间线/叙述者/人称都是跳跃的。<br>
+        &emsp;&emsp;选取Bob Dylan的《Love Sick》作为本文特供bgm。<br>
         </blockquote>
     </div>
     </details>
@@ -203,21 +217,6 @@ h2 {
         &emsp;&emsp;0725生日联产，请喝！一杯致幻的餐后酒🍷<br>
         &emsp;&emsp;起源是想写九号房间加一点点宇编风格的东西，但已经很难把它称作九号房间。。于是变成一篇各方面都失败的四不像，唯一能够确定的是现背。四不像指，末日/九号房间/搞笑/科幻（吧），总而言之是完全的没有涉及，完全的背叛，并且完全的没有逻辑。<br>
         &emsp;&emsp;当25号来临的时候，抬起头吧，你会看到宇宙送给你的礼物。
-        </blockquote>
-    </div>
-</details>
-
-<details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
-    <summary style="padding: 1em; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center;">
-        <div>
-            <strong style="font-size: 1em;"><a href="/posts/绿洲/">绿洲</a></strong>
-        </div>
-        <span style="font-size: 0.8em; color: #8C4332; opacity: 0.5;">▾</span>
-    </summary>
-<div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
-        <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
-        &emsp;&emsp;站街，所以你不喜欢的这里都有，包括但不限于不洁，路人等。有很多原创人物及相关剧情，时间线/叙述者/人称都是跳跃的。<br>
-        &emsp;&emsp;选取Bob Dylan的《Love Sick》作为本文特供bgm。<br>
         </blockquote>
     </div>
 </details>

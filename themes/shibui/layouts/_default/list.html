@@ -3,7 +3,8 @@
     {{ .Content }}
     <div class="time-list">
         <ul>
-            {{ range .Pages }}
+            <!-- 1. 将 range .Pages 改为 range .Paginator.Pages -->
+            {{ range .Paginator.Pages }}
             <li>
                 <span>{{- partial "date" .Date -}}</span>
                 <div><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></div>
@@ -11,4 +12,32 @@
             {{ end }}
         </ul>
     </div>
+
+    <!-- 2. 只有当总页数大于 1 页时，才渲染上一页 / 下一页导航栏 -->
+    {{ if gt .Paginator.TotalPages 1 }}
+    <nav class="pagination" style="display: flex; justify-content: space-between; align-items: center; margin: 2.5em 0 1em; font-size: 0.9em;">
+        <!-- 上一页 -->
+        <div>
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" style="color: #450404; text-decoration: none;">« PREV / 上一页</a>
+            {{ else }}
+            <span style="opacity: 0.3; cursor: not-allowed;">« PREV / 上一页</span>
+            {{ end }}
+        </div>
+
+        <!-- 页码指示（例如：1 / 3） -->
+        <div style="opacity: 0.7; font-size: 0.85em; letter-spacing: 0.05em;">
+            {{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}
+        </div>
+
+        <!-- 下一页 -->
+        <div>
+            {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" style="color: #450404; text-decoration: none;">NEXT / 下一页 »</a>
+            {{ else }}
+            <span style="opacity: 0.3; cursor: not-allowed;">NEXT / 下一页 »</span>
+            {{ end }}
+        </div>
+    </nav>
+    {{ end }}
 {{ end }}
