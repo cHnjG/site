@@ -34,24 +34,29 @@ h2 {
 </style>
 
 ## 🍞 我们的口号是 🍞
-好吃的面包往往需要天然的**酵种**<br>
+面包的内核是发酵<br>
 <br>
 
 ## 🍔 关于我 🍔
 
 1 请叫我小反<br>
-2 elecold / 乱反射 / 脆鸡堡<br>
+2 酵种 / elecold / 乱反射<br>
 3 我就一个马甲吗？我有好多马甲的。<br>
 4 已确诊不爱打冒号引号的绝症<br>
 5 产出无聊的，臃肿的，满足个人喜好的，三观经不起推敲的同人文<br>
-6 复述：三观经不起推敲<br>
+6 欢迎对面包师指指点点：[快用POME来向我匿名发问！](https://pome.vip/b5a0ce32dc)<br>
 7 对不起啊我没什么想说的了但是还想凑到第七条<br>
 <br>
 
-## 🥖 请挑选你想吃的面包 🥖
+## 🥯 请挑选你想吃的面包 🥯
 
 <div style="font-size: 0.9em; color: #5A4E49; opacity: 0.5; line-height: 1.6; margin: 2em 0; padding-left: 0; border-left: none; font-weight: 600;">
 陈楚生&王栎鑫（暂时只有这个款式）：
+</div>
+
+<div style="margin: 4em 0 2em; text-align: center;">
+    <span style="font-size: 0.8em; color: #8C4332; opacity: 0.6; letter-spacing: 0.2em;">✦ 巨型面包🥖 ✦</span>
+    <hr style="width: 30px; border: none; border-top: 1px solid #8C4332; margin: 10px auto; opacity: 0.3;">
 </div>
 
 <details style="margin: 0 auto 1.5em; border: 1px solid rgba(140, 67, 50, 0.15); border-radius: 15px; max-width: 650px; overflow: hidden;">
@@ -121,7 +126,7 @@ h2 {
     </details>
 
 <div style="margin: 4em 0 2em; text-align: center;">
-    <span style="font-size: 0.8em; color: #8C4332; opacity: 0.6; letter-spacing: 0.2em;">✦ One-shots / 爱之颤 ✦</span>
+    <span style="font-size: 0.8em; color: #8C4332; opacity: 0.6; letter-spacing: 0.2em;">✦ 小型面包🥐 ✦</span>
     <hr style="width: 30px; border: none; border-top: 1px solid #8C4332; margin: 10px auto; opacity: 0.3;">
 </div>
 
