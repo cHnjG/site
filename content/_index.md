@@ -119,8 +119,7 @@ h2 {
     </summary>
     <div style="padding: 1em; border-top: 1px dashed rgba(140, 67, 50, 0.1); background: rgba(140, 67, 50, 0.01);">
         <blockquote style="font-size: 0.85em; color: #666; margin: 0; padding-left: 1em; border-left: 2px solid rgba(140, 67, 50, 0.2);">
-        &emsp;&emsp;站街，所以你不喜欢的这里都有，包括但不限于不洁，路人等。具体避雷会在每章开头提及，总而言之不喜欢的千万不要看。有很多原创人物及相关剧情，时间线/叙述者/人称都是跳跃的。<br>
-        &emsp;&emsp;选取Bob Dylan的《Love Sick》作为本文特供bgm。<br>
+        &emsp;&emsp;站街，然而非典型站街，不是一个传统意义上的爱和救赎的故事，这里也没有好人和坏人，只有普通人。可以看成是，把关系推到极端以后我会如何爱你……这样的东西？有很多性，很多不堪的，带来创伤的，一些纠缠，总而言之可能和你想象的站街不一样！但该有的都有（）意思是不洁、路人等等等，不太轻松的故事。“绿洲”是火红色的，是沙漠中带来生存欲望的东西，是“沼泽”，是一种幻觉。<br>
         </blockquote>
     </div>
     </details>
