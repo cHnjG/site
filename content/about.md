@@ -33,5 +33,5 @@ footer .date,
 
 **多地分店**
 * **Weibo**: [酵种](https://weibo.com/u/7995899511)
-* **ao3**: [elecold](https://archiveofourown.org/users/elecold) user ID:23868559
+* **图频站**: [1uE2n1g](https://1ue2n1g.jiaozhong.xyz/)
 * **提问箱**: [快用POME来向我匿名发问！](https://pome.vip/b5a0ce32dc)
